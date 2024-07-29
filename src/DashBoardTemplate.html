@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="b.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/medium-zoom/1.1.0/medium-zoom.min.js"
+            integrity="sha512-9ZKhgaFdKlsELap/dGw3Iaz5Bj+Las0XXZiRKYZaN9QArg6FtkD5rULNmNH4rTCTFxjPiBGr3MX8smRADRorDA=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+</head>
+<body>
+<div id="article"></div>
+
+
+<script>
+
+    document.addEventListener("DOMContentLoaded", function () {
+
+            mediumZoom('.data-zoomable'
+                , {
+                    margin: 24,
+                    background: '#f4f5f5',
+                    scrollOffset: 2,
+                    container: null,
+                    template: null
+                })
+        }
+    )
+
+
+</script>
+</body>
+</html>

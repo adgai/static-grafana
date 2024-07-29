@@ -1,0 +1,30 @@
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="b.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/medium-zoom/1.1.0/medium-zoom.min.js" integrity="sha512-9ZKhgaFdKlsELap/dGw3Iaz5Bj+Las0XXZiRKYZaN9QArg6FtkD5rULNmNH4rTCTFxjPiBGr3MX8smRADRorDA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+</head>
+<body>
+<div id="article"><div class="dashboard-container"><div class="row" style="transform: translate(0px, 0px);"><span>Row title</span></div><div style="position: absolute; width: 1200px; height: 320px; transform: translate(0px, 40px);" class="panel"><div class="panel-content"><img src="../disk/img-1.png" class="panel-img data-zoomable"></div></div><div style="position: absolute; width: 1200px; height: 320px; transform: translate(1200px, 40px);" class="panel"><div class="panel-content"><img src="../disk/img-4.png" class="panel-img data-zoomable"></div></div><div class="row" style="transform: translate(0px, 360px);"><span>Row 2</span></div><div style="position: absolute; width: 1200px; height: 320px; transform: translate(0px, 400px);" class="panel"><div class="panel-content"><img src="../disk/img-7.png" class="panel-img data-zoomable"></div></div><div style="position: absolute; width: 1200px; height: 320px; transform: translate(1200px, 400px);" class="panel"><div class="panel-content"><img src="../disk/img-9.png" class="panel-img data-zoomable"></div></div><div style="position: absolute; width: 1200px; height: 320px; transform: translate(0px, 720px);" class="panel"><div class="panel-content"><img src="../disk/img-6.png" class="panel-img data-zoomable"></div></div><div style="position: absolute; width: 1200px; height: 320px; transform: translate(1200px, 720px);" class="panel"><div class="panel-content"><img src="../disk/img-8.png" class="panel-img data-zoomable"></div></div><div style="position: absolute; width: 1200px; height: 320px; transform: translate(1200px, 1040px);" class="panel"><div class="panel-content"><img src="../disk/img-5.png" class="panel-img data-zoomable"></div></div></div></div>
+
+
+<script>
+
+    document.addEventListener("DOMContentLoaded", function () {
+
+            mediumZoom('.data-zoomable'
+                , {
+                    margin: 24,
+                    background: '#f4f5f5',
+                    scrollOffset: 2,
+                    container: null,
+                    template: null
+                })
+        }
+    )
+
+
+</script>
+
+</body></html>

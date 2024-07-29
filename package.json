@@ -1,0 +1,27 @@
+{
+  "name": "static-grafana",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "do": "ts-node src/GenerateGrafanaDashboard.ts ",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@types/jsdom": "^21.1.7",
+    "axios": "^1.7.2",
+    "fs": "^0.0.1-security",
+    "fs-extra": "^11.2.0",
+    "jsdom": "^24.1.1",
+    "typescript": "^5.5.4",
+    "vue": "^3.4.21"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.4",
+    "@vitejs/plugin-vue": "^5.0.4",
+    "ts-node": "^10.9.2",
+    "vite": "^5.2.8"
+  }
+}
